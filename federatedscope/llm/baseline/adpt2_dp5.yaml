@@ -44,7 +44,7 @@ llm:
 dataloader:
   batch_size: 5
 model:
-  type: 'llama2/Llama-2-7b-hf'
+  type: '/home/async/data-disk/wgh/Try-fedbiot/federatedscope/llm/llama2/'
 train:
   local_update_steps: 30
   batch_or_epoch: batch
